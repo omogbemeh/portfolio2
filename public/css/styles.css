@@ -30,6 +30,11 @@ body {
   line-height: 21px;
 }
 
+a,
+a:visited {
+  color: #0000ee;
+}
+
 .home {
   display: flex;
   flex-direction: column;
@@ -58,6 +63,20 @@ body {
   align-self: flex-end;
 }
 
+.construction {
+  padding: 24px;
+  width: 100%;
+}
+
+.constructionImage {
+  width: 100%;
+}
+
+.redirectHome {
+  margin-top: 20px;
+  font-size: inherit;
+  line-height: inherit;
+}
 @media screen and (min-width: 769px) {
   .home-top {
     display: flex;
